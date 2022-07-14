@@ -1,11 +1,10 @@
 /*
-crie um programa que leia quanto de dinheiro a pessoa 
-tem e mostre quanto dolar ela pode comprar
-cambio atual dia 05/07/2022 = 5,39 Reais
+vamos calcular quanto em reais o usuário pode comprar em dólar. E vamos pedir tanto o valor em reais que o usuário quer comprar em dólar quanto o valor da cotação do dia
 */
 
 let real = Number(prompt("Digite quanto tem na carteira: "))
+let dolar = Number(prompt("Digite o valor do dolar hoje: "))
 
-let dolar = real * 5.39
+let calculo = real * dolar
 
-console.log("Voce com R$"+real+" pode comprar US$"+dolar)
+console.log(`Você com R$${real} pode comprar US$${calculo}`)

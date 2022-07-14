@@ -8,5 +8,5 @@ let valorMetro = Number(prompt("Digite um valor em Metros: "))
 let centimetro = valorMetro * 100
 let milimetro = valorMetro * 1000
 
-console.log("O valor "+valorMetro+" Metro em Centimetro é "+centimetro+"cm")
-console.log("O valor "+valorMetro+" Metro em Milimetro é "+milimetro+"mm")
+console.log(`O valor ${valorMetro} Metro em Centimetro é ${centimetro}cm`)
+console.log(`O valor ${valorMetro} Metro em Milimetro é ${milimetro}mm`)

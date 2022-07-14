@@ -7,4 +7,4 @@ let notaDois = Number(prompt("Digite a segunda nota:"))
 
 let media = (notaUm + notaDois) / 2
 
-console.log("A mediia do aluno é "+media)
+console.log(`A mediia do aluno é ${media}`)

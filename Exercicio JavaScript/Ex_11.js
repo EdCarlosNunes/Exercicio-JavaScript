@@ -11,4 +11,4 @@ let altura = Number(prompt("Digite a altura da parede em metros:"))
 let area = largura * altura
 let tinta = area / 2
 
-console.log("Sua parte tem "+largura+"x"+altura+" e ele tem "+area+"m²\n"+"Vai precisar de "+tinta+"L de tinta.")
+console.log(`Sua parte tem ${altura}x${largura} e ele tem ${area}m²\n"+"Vai precisar de ${tinta}L de tinta.`)
